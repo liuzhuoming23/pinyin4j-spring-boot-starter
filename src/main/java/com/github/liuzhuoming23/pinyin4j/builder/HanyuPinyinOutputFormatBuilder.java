@@ -15,12 +15,18 @@ import net.sourceforge.pinyin4j.multipinyin.MultiPinyinConfig;
  */
 public class HanyuPinyinOutputFormatBuilder {
 
-  public HanyuPinyinOutputFormatBuilder(String multiPinyinPath) {
-    /**
-     * set multi pinyin mounts path
-     */
-    MultiPinyinConfig.multiPinyinPath = multiPinyinPath;
+  public HanyuPinyinOutputFormatBuilder() {
   }
+
+  public HanyuPinyinOutputFormatBuilder(String multiPinyinPath) {
+    //set multi pinyin mounts path
+    this.multiPinyinPath = multiPinyinPath;
+  }
+
+  /**
+   * multi pinyin mounts path
+   */
+  private String multiPinyinPath = null;
 
   /**
    * This classes define how the Hanyu Pinyin should be outputted.
@@ -64,6 +70,7 @@ public class HanyuPinyinOutputFormatBuilder {
    * @see HanyuPinyinOutputFormatBuilder#hanyuPinyinOutputFormat
    */
   public HanyuPinyinOutputFormat build() {
+    MultiPinyinConfig.multiPinyinPath = this.multiPinyinPath;
     return this.hanyuPinyinOutputFormat;
   }
 }

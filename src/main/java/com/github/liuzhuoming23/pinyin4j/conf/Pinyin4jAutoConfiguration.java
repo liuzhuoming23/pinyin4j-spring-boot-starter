@@ -31,7 +31,7 @@ public class Pinyin4jAutoConfiguration {
     if (pinyin4jProperties.getMulti().getEnabled()) {
       return new HanyuPinyinOutputFormatBuilder(pinyin4jProperties.getMulti().getPath());
     } else {
-      return new HanyuPinyinOutputFormatBuilder(null);
+      return new HanyuPinyinOutputFormatBuilder();
     }
   }
 }
