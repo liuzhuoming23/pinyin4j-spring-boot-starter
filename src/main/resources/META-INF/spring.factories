@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.liuzhuoming23.pinyin4j.conf.Pinyin4jAutoConfiguration
