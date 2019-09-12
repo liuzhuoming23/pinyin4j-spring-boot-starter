@@ -30,7 +30,7 @@ public class DemoApplicationTests {
 shehuizhuyihexinjiazhiguan
 ```
 
-## 挂载自定义多音字
+## 挂载自定义多音字/覆盖错误拼音
 
 将多音字配置放到一个txt文件里面，比如C:\Users\fm\Desktop\duoyinzi.txt，  
 多音字格式为`汉字+空格+(+拼音+,+拼音...+)+换行符`，示例：
