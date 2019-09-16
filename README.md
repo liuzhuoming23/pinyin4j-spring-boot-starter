@@ -1,12 +1,12 @@
 # pinyin4j-spring-boot-starter
 A Spring Boot Starter of https://github.com/belerweb/pinyin4j.
 
-**已上传maven中央仓库，审核通过后可以通过在pom.xml添加依赖的方式引用**：
+**已上传maven中央仓库，可以通过在pom.xml添加依赖的方式引用**：
 ```xml
 <dependency>
   <groupId>com.github.liuzhuoming23</groupId>
   <artifactId>pinyin4j-spring-boot-starter</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
 
