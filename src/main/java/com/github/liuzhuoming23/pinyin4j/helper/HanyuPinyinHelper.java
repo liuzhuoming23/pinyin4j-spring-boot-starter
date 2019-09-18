@@ -5,10 +5,10 @@ import net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat;
 import net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination;
 
 /**
- * pinyin helper
+ * hanyu pinyin helper
  *
  * <p>
- * A special class from PinyinHelper method
+ * A special class for hanyu pinyin from PinyinHelper method
  * </p>
  *
  * @author liuzhuoming
