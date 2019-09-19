@@ -8,7 +8,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  *
  * @author liuzhuoming
  * @version 0.0.1
- * @datetime 2019/9/11 18:29
  */
 @Data
 @ConfigurationProperties(prefix = "pinyin4j")

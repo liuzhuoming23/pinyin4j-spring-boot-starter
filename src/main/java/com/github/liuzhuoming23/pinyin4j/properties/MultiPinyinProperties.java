@@ -1,15 +1,16 @@
 package com.github.liuzhuoming23.pinyin4j.properties;
 
 import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * multi pinyin properties
  *
  * @author liuzhuoming
  * @version 0.0.1
- * @datetime 2019/9/12 10:01
  */
 @Data
+@ConfigurationProperties(prefix = "pinyin4j.multi")
 public class MultiPinyinProperties {
 
   /**

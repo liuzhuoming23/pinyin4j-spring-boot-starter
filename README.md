@@ -6,7 +6,7 @@ A Spring Boot Starter of https://github.com/belerweb/pinyin4j.
 <dependency>
   <groupId>com.github.liuzhuoming23</groupId>
   <artifactId>pinyin4j-spring-boot-starter</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.4</version>
 </dependency>
 ```
 

@@ -11,7 +11,6 @@ import net.sourceforge.pinyin4j.multipinyin.MultiPinyinConfig;
  *
  * @author liuzhuoming
  * @version 0.0.1
- * @datetime 2019/9/11 17:20
  */
 public class HanyuPinyinOutputFormatBuilder {
 
